@@ -23,3 +23,17 @@ Vietu: 8; viso: 20; uzimtos pilnai: 5; uzimtos ne pilnai: 2;
 Viso vietu: 200; kaliniu: 70;
 ============================================================
 ```
+
+- reikia metodo, kuris isspausdina individualiu kameru uzimtuma, kameras isspausdinti reikia nuo maziausios kameros link didziausios ir jei yra vienodo dydzio kameros, tai antraeilis rikiavimas yra pagal uzimtuma, nuo didziausio link maziausio;
+
+```
+============================================================
+"XXX" kaleimas
+============================================================
+#1 Vietu: 1; uzimtumas: 1;
+#2 Vietu: 1; uzimtumas: 0;
+#3 Vietu: 3; uzimtumas: 2;
+#4 Vietu: 8; uzimtumas: 8;
+#5 Vietu: 8; uzimtumas: 5;
+============================================================
+```
